@@ -1,0 +1,13 @@
+Computer/CollectingTrainingData/pickle_data/
+Computer/CollectingTrainingData/training_data/
+/Computer/ObjectDetection/TrafficLightDetection/HaarCascadeClassifier/neg/
+/Computer/ObjectDetection/TrafficLightDetection/HaarCascadeClassifier/pos/
+/Computer/ObjectDetection/TrafficLightDetection/HaarCascadeClassifier/pos_annotations/
+/RaspberryPi/CollectingTrainingData/training_data/
+/Computer/CollectingTrainingData/data_1.pickle
+/Computer/CollectingTrainingData/data_25_gzip.pickle
+/Computer/ObjectDetection/TrafficLightDetection/TrafficLightData/
+/Computer/ObjectDetection/TrafficLightDetection/TFObjectDetectionAPI/TrafficLightLabeledData/Train/
+/Computer/ObjectDetection/TrafficLightDetection/TFObjectDetectionAPI/TrafficLightLabeledData/Test/
+/Computer/NeuralNetworkModels/
+/Computer/ObjectDetection/TrafficLightDetection/TFObjectDetectionAPI/TrafficLightLabeledData/training/
