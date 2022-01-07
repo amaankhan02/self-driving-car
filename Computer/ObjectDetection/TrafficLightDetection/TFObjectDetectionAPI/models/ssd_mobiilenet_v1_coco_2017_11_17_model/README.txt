@@ -1,0 +1,2 @@
+- first model created
+- input image is RGB

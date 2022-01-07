@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amaan.sdc_autonomouscontroller.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ToggleButton
+            android:id="@+id/ToggleAutonomousButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textOff="Start Autonomous"
+            android:textOn="Stop Autonomous"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="202dp" />
+
+        <SeekBar
+            android:id="@+id/SpeedBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ToggleAutonomousButton"
+            android:max="16"
+            android:progress="8"
+            tools:layout_editor_absoluteY="390dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteX="14dp" />
+
+        <TextView
+            android:id="@+id/SpeedValueTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/SpeedBar"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:text="0" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

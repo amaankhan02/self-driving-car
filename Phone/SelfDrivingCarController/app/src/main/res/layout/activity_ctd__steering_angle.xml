@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amaan.selfdrivingcarcontroller.CTD_SteeringAngleActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="-100dp"
+        tools:layout_editor_absoluteY="6dp">
+
+        <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/joystickView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            custom:JV_backgroundColor="#009688"
+            custom:JV_borderColor="#00796B"
+            custom:JV_borderWidth="4dp"
+            custom:JV_buttonColor="#FF6E40"
+            custom:JV_buttonDirection="horizontal"
+            custom:JV_buttonSizeRatio="15%"
+            custom:JV_fixedCenter="true" />
+
+        <TextView
+            android:id="@+id/steerAngleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Steer Angle: 0"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/speedBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:max="16"
+            android:progress="8"
+            android:layout_below="@+id/steerAngleTextView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp" />
+
+        <TextView
+            android:id="@+id/speedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/steerAngleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="72dp"
+            android:text="Speed: 0"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/toggleMoveForwardButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/speedTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="Foward"
+            android:textOff="Forward Off"
+            android:textOn="Foward On" />
+
+        <Button
+            android:id="@+id/StopAllBtn"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:text="Stop All Motors"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/toggleTrainingSessionBtn"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/speedBar"
+            android:layout_alignTop="@+id/StopAllBtn"
+            android:layout_marginStart="17dp"
+            android:text="Toggle Training Session"
+            android:textOff="Start Training"
+            android:textOn="Stop Training" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

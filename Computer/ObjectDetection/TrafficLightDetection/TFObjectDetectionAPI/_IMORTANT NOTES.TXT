@@ -1,0 +1,4 @@
+data has only been annotated for month of november data (last ones starting with 1511...)
+	but new data was got for HAAR cascade data, and was annotated for haar cascade. So get those xml files and move them here
+
+AND, the folder of images was changed, so in every xml there is a field for filepath, you must CHANGE THIS

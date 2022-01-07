@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amaan.selfdrivingcarcontroller.MainMenuActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/openCtdDiscreteTurnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/openCtdSteeringAnglesBtn"
+            android:layout_alignStart="@+id/openCtdSteeringAnglesBtn"
+            android:layout_below="@+id/openCtdSteeringAnglesBtn"
+            android:layout_marginTop="24dp"
+            android:text="Open CTD - Discrete Turns"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="278dp"
+            tools:text="Open CTD - Discrete Turns" />
+
+        <Button
+            android:id="@+id/openAutonomousModeBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/openCtdSteeringAnglesBtn"
+            android:layout_alignLeft="@+id/openCtdSteeringAnglesBtn"
+            android:layout_alignStart="@+id/openCtdSteeringAnglesBtn"
+            android:layout_marginBottom="28dp"
+            android:text="Open Autonomous Mode"
+            tools:layout_editor_absoluteX="92dp"
+            tools:layout_editor_absoluteY="120dp"
+            tools:text="Open Autonomous Mode" />
+
+        <Button
+            android:id="@+id/openCtdSteeringAnglesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Open CTD - Steering Angles"
+            tools:layout_editor_absoluteX="80dp"
+            tools:layout_editor_absoluteY="210dp"
+            tools:text="Open CTD - Steering Angles" />
+
+        <Button
+            android:id="@+id/CollectTrafficLightData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/openCtdDiscreteTurnBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:text="Collect Traffic Light Data" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
