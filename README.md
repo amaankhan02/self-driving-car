@@ -16,5 +16,5 @@ Video Demo: https://www.youtube.com/watch?v=3dEgJ7sz6XA
   the LBP Cascade Classifier and for training using the TensorFlow Object Detection API.
 * `/Phone` - Contains code for the Android App that I wrote to control the car, for when the car is running autonomously
 and for when the car is collecting training data for training the steering prediction neural network model.
-* `RaspberryPi` - Contains code that is hosted on the Raspberry Pi (which is in the car). This contains code 
+* `/RaspberryPi` - Contains code that is hosted on the Raspberry Pi (which is in the car). This contains code 
 that is pertaining to the Autonomous mode, collecting training data mode, and code to control the sensors on the car.
