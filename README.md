@@ -3,7 +3,7 @@ This repository contains code for my Self-Driving Car Prototype that was origina
 code files to GitHub now.
 This project was developed between **Jan 2017 to Dec 2017** when I was a Freshman to Sophomore in high school.
 
-**Click on image below to watch YouTube video demo!**    
+**Click [here](https://www.youtube.com/watch?v=3dEgJ7sz6XA) or the image below to watch the video demo!**    
 [![IMAGE_ALT](https://img.youtube.com/vi/3dEgJ7sz6XA/0.jpg)](https://www.youtube.com/watch?v=3dEgJ7sz6XA)    
 
 ## Directory Structure
