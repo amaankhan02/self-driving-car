@@ -6,7 +6,7 @@ This project was developed between **Jan 2017 to Dec 2017** when I was a Freshma
 Video Demo: https://www.youtube.com/watch?v=3dEgJ7sz6XA
 
 ## Directory Structure
-* `/Computer` -  Contains code that resided on my main PC. This directory contains code to...
+* `/Computer` -  Contains code that meant to be ran on my main PC. This directory contains code to...
     * **Run the car autonomously** - where the PC was connected to the Raspberry Pi via a socket server
     * **Collect Training Data** - When collecting training data, I control the car (Raspberry Pi) using an Android app that I wrote. The Raspberry Pi sends the video frames along with the current car steering command
   to a shared network folder. The code in this folder collects that data saved in the network drive and saves it to a
