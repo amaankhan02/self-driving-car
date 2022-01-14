@@ -16,7 +16,7 @@ This project was developed between **Jan 2017 to Dec 2017** when I was a Freshma
 * Developed an Android App using Java to control the car wirelessly through a socket server to collect the steering prediction data of 120,000 video frames, which was stored on Microsoft SQL Server
 * Setup a Windows Task Scheduler to automatically fetch training data from the Raspberry Pi to a SQL Server database on my PC (during data collection process).
 * Implemented various data augmentation techniques to artificially grow the dataset to improve model accuracy and robustness.
-* Due to limited computational resources, I trained an LBP Cascade Classifier instead of using a Deep Learning method to detect traffic lights on a custom collected dataset of 570 positive samples 1000 negative samples.![image](https://user-images.githubusercontent.com/26418517/149573168-d88ae1da-1048-43ef-a547-edffbb094110.png)
+* Due to limited computational resources, I trained an LBP Cascade Classifier instead of using a Deep Learning method to detect traffic lights on a custom collected dataset of 570 positive samples 1000 negative samples.
 * **Awarded [2nd place at the National Junior Science & Humanities Symposium (JSHS)](http://pshs.psd202.org/news/1144) in Mathematics and Computer Science and [1st place at the Illinois-Chicago JSHS](https://patch.com/illinois/plainfield/plainfield-south-student-builds-self-driving-car) for this project
 **
 
