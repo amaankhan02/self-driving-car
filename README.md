@@ -6,6 +6,21 @@ This project was developed between **Jan 2017 to Dec 2017** when I was a Freshma
 **Click [here](https://www.youtube.com/watch?v=3dEgJ7sz6XA) or the image below to watch the video demo!**    
 [![IMAGE_ALT](https://img.youtube.com/vi/3dEgJ7sz6XA/0.jpg)](https://www.youtube.com/watch?v=3dEgJ7sz6XA)    
 
+## Quick Overview:
+* Independently researched and developed a Self-Driving Car prototype on a Raspberry Pi that can drive within lanes, detect traffic lights, and avoid obstacles, all running on a CPU.
+* Developed a Raspberry Pi Self-Driving Car that drives within lanes, avoids obstacles, and responds to traffic lights. 
+* Removed the existing microcontroller from a Remote Control car and replaced with a Raspberry Pi and motor driver, along with adding an ultrasonic distance sensor to avoid obstacles
+* Trained a Convolutional Neural Network (CNN) using TensorFlow for end-to-end steering prediction with 91.06% testing accuracy. Model inspired by NVIDIA's paper: End to End Learning for Self-Driving Cars by Bojarski et al.
+* Researched and optimized my CNN for steering prediction to be accurate but fast to run on a CPU in real-time, since I did not have access to a GPU
+* To run the car autonomously, I offloaded the models and algorithms to my PC by having the Raspberry Pi car send live video frames to my PC through a socket server, in which my PC ran the models/algorithms on the video frame and sent back a command to the car.
+* Developed an Android App using Java to control the car wirelessly through a socket server to collect the steering prediction data of 120,000 video frames, which was stored on Microsoft SQL Server
+* Setup a Windows Task Scheduler to automatically fetch training data from the Raspberry Pi to a SQL Server database on my PC (during data collection process).
+* Implemented various data augmentation techniques to artificially grow the dataset to improve model accuracy and robustness.
+* Due to limited computational resources, I trained an LBP Cascade Classifier instead of using a Deep Learning method to detect traffic lights on a custom collected dataset of 570 positive samples 1000 negative samples.![image](https://user-images.githubusercontent.com/26418517/149573168-d88ae1da-1048-43ef-a547-edffbb094110.png)
+* **Awarded [2nd place at the National Junior Science & Humanities Symposium (JSHS)](http://pshs.psd202.org/news/1144) in Mathematics and Computer Science and [1st place at the Illinois-Chicago JSHS](https://patch.com/illinois/plainfield/plainfield-south-student-builds-self-driving-car) for this project
+**
+
+
 ## Directory Structure
 * `/Computer` -  Contains code that meant to be ran on my main PC. This directory contains code to...
     * **Run the car autonomously** - where the PC was connected to the Raspberry Pi via a socket server
