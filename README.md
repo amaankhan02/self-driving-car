@@ -16,8 +16,7 @@ This project was developed between **Jan 2017 to Dec 2017** when I was a Freshma
 * Setup a Windows Task Scheduler to automatically fetch training data from the Raspberry Pi to a SQL Server database on my PC (during data collection process).
 * Implemented various data augmentation techniques to artificially grow the dataset to improve model accuracy and robustness.
 * Due to limited computational resources, I trained an LBP Cascade Classifier instead of using a Deep Learning method to detect traffic lights on a custom collected dataset of 570 positive samples 1000 negative samples.
-* **Awarded [2nd place at the National Junior Science & Humanities Symposium (JSHS)](https://www.psd202.org/news/1163) in Mathematics and Computer Science and [1st place at the Illinois-Chicago JSHS](https://patch.com/illinois/plainfield/plainfield-south-student-builds-self-driving-car) for this project
-**
+* **Awarded [2nd place at the National Junior Science & Humanities Symposium (JSHS)](https://www.psd202.org/news/1163) in Mathematics and Computer Science and [1st place at the Illinois-Chicago JSHS](https://patch.com/illinois/plainfield/plainfield-south-student-builds-self-driving-car) for this project**
 
 
 ## Directory Structure
