@@ -8,7 +8,6 @@ This project was developed between **Jan 2017 to Dec 2017** when I was a Freshma
 
 ## Quick Overview:
 * Independently researched and developed a Self-Driving Car prototype on a Raspberry Pi that can drive within lanes, detect traffic lights, and avoid obstacles, all running on a CPU.
-* Developed a Raspberry Pi Self-Driving Car that drives within lanes, avoids obstacles, and responds to traffic lights. 
 * Removed the existing microcontroller from a Remote Control car and replaced with a Raspberry Pi and motor driver, along with adding an ultrasonic distance sensor to avoid obstacles
 * Trained a Convolutional Neural Network (CNN) using TensorFlow for end-to-end steering prediction with 91.06% testing accuracy. Model inspired by NVIDIA's paper: End to End Learning for Self-Driving Cars by Bojarski et al.
 * Researched and optimized my CNN for steering prediction to be accurate but fast to run on a CPU in real-time, since I did not have access to a GPU
